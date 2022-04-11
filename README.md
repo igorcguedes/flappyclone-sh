@@ -12,4 +12,4 @@ git clone https://github.com/igorcguedes/flappyclone-sh/
 
 cd flappyclone-sh
 
-./flappy
+./flappy.sh
