@@ -1,32 +1,4 @@
 #!/bin/sh
-#
-# Made by Valeriy Kireev <valeriykireev@gmail.com>, 2016
-#
-# sfb is licensed under the terms of the MIT license.
-# See LICENSE for details.
-#
-# sfb -- Flappy Bird clone written in sed.
-#
-# Implemented:
-#  * Collisions;
-#  * Level generation;
-#  * Column's movement;
-#  * User's input handling;
-#  * Score counting;
-#  * Colorized output;
-#  * Bird's movement;
-#  * Color scheme choosing.
-#
-# Not implemented:
-#  * Level randomization;
-#  * Background music (?)
-#
-# Move up with `k` button. No more movements implemented. It's original way,
-#
-# Problems:
-#  * Colorized version lags on Solaris (network connection?)
-#    Fixed with double buffering.
-#
 
 colorize="cat"
 if [ $# -ne 1 ]
